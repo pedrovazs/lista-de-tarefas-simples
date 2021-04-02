@@ -1,5 +1,8 @@
+body {
+    background: #fefdff;
+}
+
 .card {
-    background-color: rgb(248, 248, 248);
     margin-top: 1rem;
     margin-bottom: 1.25rem;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, .15);
@@ -7,13 +10,18 @@
 }
 
 .card-header {
-    background-color: rgb(220, 237, 252);
+    background-color: #cdc1ff;
+    color: rgb(54, 54, 54);
     text-align: center;
     border-radius: .5rem;
 }
 
-#lista :hover{
-    background-color: rgb(245, 255, 252);
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, .15);
+#lista :hover {
+    background-color: #f5efff;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .25);
+}
 
+#lista :active {
+    background-color: rgb(253, 89, 89);
+    color: aliceblue;
 }
